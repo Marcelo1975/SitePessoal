@@ -1,0 +1,106 @@
+body{
+	background-color: #EEE;
+}
+.half_bg{
+	background-color: #00FF00;
+	height: 300px;
+}
+header{
+	margin-top: -300px;
+}
+header h1{
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: bold;
+}
+header h3{
+	color: #FFF;
+	font-size: 20px;
+}
+.social_area{
+	display: flex;
+}
+.social_button{
+	width: 30px;
+	height: 30px;
+	margin-right: 10px;
+	border-radius: 15px;
+	box-shadow: 0px 2px 2px #999;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.social_button:hover,
+.social_button_two:hover{
+	background-color: rgba(255, 255, 255, 0.5);
+}
+.social_button a,
+.social_button_two a{
+	display: block;
+	flex: 1;
+	text-align: center;
+}
+.social_button img{
+	width: 15px;
+	height: 15px;
+}
+.social_area_two{
+	background-color: #00FF00;
+	height: 50px;
+}
+.social_button_two{
+	flex:1;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+
+}
+.social_button_two img{	
+	width: 25px;
+	height: 25px;
+}
+.header_height{
+	margin-top: 30px;
+}
+.body_top{
+	background-color: #FFF;
+	margin-top:30px;
+	box-shadow: 0px 2px 2px #CCC;
+	border-radius: 3px;
+	overflow: hidden;
+}
+.avatar{
+	width: 100%;
+	height: auto;
+}
+.welcome_box{
+	background-color: #00FF00;
+	padding: 5px 7px;
+	display: inline-block;
+	color: #FFF;
+}
+.welcome_name{
+	font-size: 27px;
+	text-transform: uppercase;
+	margin-top: 10px;
+}
+.welcome_name span{
+	color: #00FF00;
+	font-weight: bold;
+}
+.welcome_desc{
+	font-size: 20px;
+	border-bottom: 2px solid #CCC;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+.user_info{
+	flex:1;
+}
+.user_info td{
+	padding: 5px 0;
+}
