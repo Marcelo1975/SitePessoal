@@ -1,6 +1,6 @@
 Site pessoal em wordpress, totalmente dinâmico
 
-Com opções de confirar cores e imgens padrões
+Com opções de configurar cores e imgens padrões
 
 Totalmente free
 
